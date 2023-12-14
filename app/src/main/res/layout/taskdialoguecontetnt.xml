@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Task Progress Form"
+            android:background="@color/purple_500"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" task name"
+            android:layout_marginTop="10dp"
+            android:textSize="19sp"
+            android:id="@+id/UDTaskName"
+            android:textColor="@color/black"
+            />
+
+        <!--<EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description of task"
+            android:layout_marginTop="10dp"
+            android:textSize="19sp"
+            android:textColor="@color/black"
+            android:id="@+id/UDTask_description"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select worker to assign task"
+            android:textColor="@color/black"
+            android:textSize="19sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Assignee name"
+            android:layout_marginTop="10dp"
+            android:textSize="19sp"
+            android:textColor="@color/black"
+            android:id="@+id/UDassignedworkr"/>-->
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Task Start Date"
+            android:textColor="@color/black"
+            android:textSize="19sp" />
+        <TextView
+            android:id="@+id/UDtaskdateselected"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+ start date"
+            android:textColor="@color/notifications"
+            android:textSize="19sp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Task End Date"
+            android:textColor="@color/black"
+            android:textSize="19sp" />
+        <TextView
+            android:id="@+id/UDtaskEdateselected"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+  End date"
+            android:textColor="@color/notifications"
+            android:textSize="19sp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Task Status"
+            android:textColor="@color/black"
+            android:textSize="19sp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Status"
+            android:layout_marginTop="10dp"
+            android:textSize="19sp"
+            android:textColor="@color/black"
+            android:id="@+id/UDTaskstatus"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/UDTid"
+            android:visibility="gone"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/UDTname"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/UDTkeyid"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:id="@+id/UDTaskAttachmentpic"
+            android:src="@drawable/ic_baseline_assignment_24"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Upload Progress"
+            android:id="@+id/UDUploadTask"
+            android:textSize="22dp"
+            android:background="@drawable/rounded"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

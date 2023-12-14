@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.signup_form">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Signup_Form">
+        <activity
+            android:name=".FloorPlanPages.FloorPlanPage"
+            android:exported="false" />
+        <activity
+            android:name=".FloorPlanPages.UploadFloorPlan"
+            android:exported="false" />
+        <activity
+            android:name=".Workerpages.WorkerTaskPage"
+            android:exported="false" />
+        <activity
+            android:name=".TaskPages.TaskPage"
+            android:exported="false" />
+        <activity
+            android:name=".TaskPages.TaskForm"
+            android:exported="false" />
+        <activity
+            android:name=".Workersignupform"
+            android:exported="false" />
+        <activity
+            android:name=".workerloginpage"
+            android:exported="false" />
+        <activity
+            android:name=".workerMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserChoiceLgn"
+            android:exported="false" />
+        <activity
+            android:name=".UserChoiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OpeningPage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Settingspages.Sendusmessage"
+            android:exported="false" />
+
+        <activity
+            android:name=".Settingspages.AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".Settingspages.FAQs"
+            android:exported="false" />
+        <activity
+            android:name=".Settingspages.Setting"
+            android:exported="false" />
+
+        <activity
+            android:name=".Inventory.inventorypage"
+            android:exported="false" />
+        <activity
+            android:name=".Inventory.inventoryform"
+            android:exported="false" />
+        <activity
+            android:name=".Managerpages.Signup_Form"
+            android:exported="false" />
+        <activity
+            android:name=".Managerpages.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Managerpages.loginpage"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage"
+            android:exported="false" />
+        <activity
+            android:name=".UploadPhotos"
+            android:exported="false"/>
+        <activity
+            android:name=".PhotosPage"
+            android:exported="false"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
+    </application>
+
+</manifest>

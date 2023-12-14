@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:text="Add New Material"
+      android:background="@color/purple_500"
+      android:textSize="25dp"
+      android:gravity="center"
+      android:textColor="@color/white"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:textSize="20dp"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="5dp"
+      android:text="Material Name "/>
+  <EditText
+      android:id="@+id/txtName"
+      android:hint="Enter name of material"
+      android:textColor="@color/black"
+      android:textColorHint="#605A5A"
+      android:layout_width="match_parent"
+      android:layout_height="35dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:background="@drawable/rounded"
+      android:gravity="center"/>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:textSize="20dp"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="5dp"
+      android:text="Specification"/>
+  <EditText
+      android:id="@+id/txtspecification"
+      android:hint="Mention brand,color,size etc"
+      android:layout_width="match_parent"
+      android:layout_height="35dp"
+      android:textColor="@color/black"
+      android:textColorHint="#605A5A"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:background="@drawable/rounded"
+      android:gravity="center"/>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:textSize="20dp"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="5dp"
+      android:text="Stock"/>
+  <EditText
+      android:id="@+id/txtstock"
+      android:hint="Enter amount of stock"
+      android:layout_width="match_parent"
+      android:layout_height="35dp"
+      android:textColor="@color/black"
+      android:textColorHint="#605A5A"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:background="@drawable/rounded"
+      android:gravity="center"/>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:textSize="20dp"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="5dp"
+      android:text="Unit of Measurement"/>
+  <com.google.android.material.textfield.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginRight="10dp"
+      android:hint="Select Unit of Measurement"
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+    <AutoCompleteTextView
+        android:id="@+id/txtunit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"/>
+  </com.google.android.material.textfield.TextInputLayout>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:textSize="20dp"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="5dp"
+      android:text="Amount"/>
+
+  <EditText
+      android:id="@+id/txtamount"
+      android:hint="Enter amount to be alloted"
+      android:layout_width="match_parent"
+      android:layout_height="35dp"
+      android:textColor="@color/black"
+      android:textColorHint="#605A5A"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:background="@drawable/rounded"
+      android:gravity="center"/>
+
+  <Button
+    android:id="@+id/btnAdd"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Add"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    android:layout_marginTop="10dp"
+    android:textSize="21dp"
+    android:textAllCaps="false"
+    android:background="@drawable/rounded"
+    android:gravity="center"/>
+
+  <Button
+      android:id="@+id/btnBack"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="back"
+      android:layout_marginLeft="25dp"
+      android:layout_marginRight="25dp"
+      android:layout_marginTop="10dp"
+      android:textSize="21dp"
+      android:textAllCaps="false"
+      android:background="@drawable/rounded"
+      android:gravity="center"/>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

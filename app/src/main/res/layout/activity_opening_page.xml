@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OpeningPage">
+
+    <TextView
+        android:layout_margin="40dp"
+        android:id="@+id/TitleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text=" Construction Planning App"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/LottiAnim1"
+        android:layout_below="@+id/TitleName"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/construction"
+        android:elevation="5dp"/>
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#918383">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Update"
+        android:background="@color/purple_500"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/udtName"
+        android:hint="Enter name of material"
+        android:textColor="@color/black"
+        android:textColorHint="#605A5A"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/udtspecification"
+        android:hint="Mention brand,color,size etc"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textColor="@color/black"
+        android:textColorHint="#605A5A"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/udtstock"
+        android:hint="Enter amount of stock"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textColor="@color/black"
+        android:textColorHint="#605A5A"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"/>
+
+    <!--<com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:hint="Select Unit of Measurement"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        >
+
+        <AutoCompleteTextView
+            android:id="@+id/udtunit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded"
+            android:inputType="none"
+            android:gravity="center"/>
+    </com.google.android.material.textfield.TextInputLayout>-->
+
+    <EditText
+        android:id="@+id/udtAmount"
+        android:hint="Enter Amount to be alloted"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textColor="@color/black"
+        android:textColorHint="#605A5A"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/udtUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:textSize="21dp"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded"
+        android:gravity="center"/>
+
+
+
+
+
+
+
+</LinearLayout>
